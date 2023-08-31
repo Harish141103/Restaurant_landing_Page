@@ -37,7 +37,7 @@ The restaurant landing page will serve as an online presence for hunger restaura
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/restaurant-landing-page.git
+   git clone https://github.com/your-username/restaurant_landing_page.git
    ```
 
 2. Navigate to the project directory:
