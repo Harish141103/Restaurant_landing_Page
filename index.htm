@@ -18,7 +18,13 @@
 body,h2{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
+
 }
+.layout{
+    max-width: 2000px;
+    margin:0 auto;
+}
+
 .landing{
     /* background-image: url('./img/pexels-chan-walrus-941869.jpg'); */
     background-size:cover;
@@ -214,11 +220,56 @@ i{
 width:50px;
 height: 30px;
 }
+
+
+@media(min-width:1700px){ 
+.layout{
+    max-width: 2560px;
+    margin:0 auto;
+}
+
+.logo{
+font-size:4.7em;
+}
+.logo img{width:100px;padding:10px;}
+
+nav a{
+    font-size: 3.2em;
+}
+.tagline1{
+    font-size: 6.2em;
+}
+.tagline2{
+font-size: 3.3em;
+}
+.callus{
+    font-size: 3.2em;
+}
+.maintext div{
+    margin-top:1em;
+}
+.maintext button{
+    font-size: 2.5em;
+    }
+#menuhead,#lochead{
+        font-size: 5.5em;
+}
+.menu th{
+    font-size: 2.5em;
+}
+.menu tr{font-size: 2em;}
+.locations h2{font-size:2.3em;}
+.locations div{font-size:2em;}
+.locations address{font-size:1.2em;font-weight: bolder;}
+footer{font-size: 2em;}
+i{ margin:10px;}
+.socialmedia a i{width:120px;height: 50px;}
+
+}
 </style>
 </head>
 <body>
-
-    
+    <div class="layout">
 <div class="landing">
     <div class="slideshow-container">
         <div class="slideshow-image"></div> 
@@ -390,6 +441,7 @@ height: 30px;
            </div>
 <div id="copyright">&#169 CopyRight Hunger</div>
 </footer>
+</div>
 <script >
     
 const images = ['img/img1.jpg', 'img/img2.jpg', 'img/img3.jpg','img/img4.jpg','img/img5.jpg'];
